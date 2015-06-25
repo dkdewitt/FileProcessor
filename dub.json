@@ -1,8 +1,11 @@
 {
-	"name": "fileprocessor",
-	"description": "A minimal D application.",
-	"copyright": "Copyright © 2015, daviddewitt",
-	"authors": ["daviddewitt"],
-	"dependencies": {
-	}
+    "name": "fileprocessor",
+    "description": "A minimal D application.",
+    "copyright": "Copyright © 2015, david",
+    "authors": ["david"],
+    "targetPath":"./",
+    "dependencies": {
+        
+    },
+    "versions": ["VibeCustomMain"]
 }
