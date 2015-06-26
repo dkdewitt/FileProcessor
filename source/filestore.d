@@ -16,8 +16,6 @@ struct FileStore
     void addFile(string fileName){
         fileNames~=fileName;
     }
-
-
 }
 
 struct f_item(T){
@@ -51,7 +49,6 @@ struct f_item(T){
         return data[t1];
     }
 
-
 }
 
 
@@ -66,8 +63,15 @@ struct file_hash(T)
             auto dict = zip(h1.fullHeader,lineArray).
                 filter!(a=>h1.filteredHeader.canFind(a[0])).assocArray;
            
+
             d ~= dict;
+
         }
+
+    }
+
+    T[T][] getData(){
+        return d;
     }
 }
 
